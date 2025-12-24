@@ -70,4 +70,12 @@ The analysis includes:
     jupyter notebook "Heuristic Intrusion Detection System.ipynb"
     ```
 4.  **Dataset Setup**: Ensure the dataset file (e.g., `SDN_Intrusion.csv`) is available.
-    * *Note*: The code currently looks for the dataset at `/content/SDN_Intrusion.csv`. You may need to update the `pd.read_csv()` path in the notebook to match your local file location.
+    * *Note*: The code currently looks for the dataset at `/content/SDN_Intrusion.csv`. We may need to update the `pd.read_csv()` path in the notebook to match our local file location.
+  
+## Results
+
+**Detection Rates:**
+
+- Baseline Model Accuracy: 70.4 %
+
+- Final Smart Model Accuracy: 96.7 %
